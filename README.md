@@ -4,13 +4,13 @@ I am going to go over 6 mini-challenges that I completed is iOs App Development 
 
 ### Mini-Challenge: Functions
 
-# Requirements:
+##### Requirements:
 - Create a function, called check, that takes in an Int and returns an optional String.
 - The input parameter should be called value.
 - If the passed in argument is negative or zero, return nil.
 - Else return a string version of the argument. 
 
-# My Solution:
+##### My Solution:
 ```Swift
 func check(value: Int) -> String? {
     if (value < 1) {
@@ -27,7 +27,7 @@ let numberString3: String? = check(value: -2)
 ```
 ### Mini-Challenge: Enumeration and Switch Statements
 
-# Requirements:
+##### Requirements:
 - Create an enum named StatusCode with the following cases:
     1.success
     2.unauthorized
@@ -39,7 +39,7 @@ let numberString3: String? = check(value: -2)
     - StatusCode.forbidden should return "403: Forbidden"
     - StatusCode.notFound should return "404: Not Found"
     
-# My Solution:
+##### My Solution:
 ```Swift
 enum StatusCode {
     case success
