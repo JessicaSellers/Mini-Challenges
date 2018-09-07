@@ -10,24 +10,19 @@ Requirements:
 - If the passed in argument is negative or zero, return nil.
 - Else return a string version of the argument. 
 
+```Swift
+func check(value: Int) -> String? {
+    if (value < 1) {
+        return nil
+    }
+    
+    let convertedString = "\(value)"
+    return convertedString
+}
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+let numberString1: String? = check(value: 10) 
+let numberString2: String? = check(value: 0) 
+let numberString3: String? = check(value: -2) 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
