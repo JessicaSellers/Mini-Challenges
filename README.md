@@ -29,10 +29,10 @@ let numberString3: String? = check(value: -2)
 
 ##### Requirements:
 - Create an enum named StatusCode with the following cases:
-    1.success
-    2.unauthorized
-    3.forbidden
-    4.notFound
+    1. success
+    2. unauthorized
+    3. forbidden
+    4. notFound
 - Create a function called prettyPrint that takes a StatusCode enum as a parameter and returns a String. Using a switch statement on the enum, return the following strings based on the value passed in.
     - StatusCode.success should return "200: Success"
     - StatusCode.unauthorized should return "401: Unauthorized"
