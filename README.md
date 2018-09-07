@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to my first Github.io
 
-You can use the [editor on GitHub](https://github.com/JessicaSellers/Mini-Challenges/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am going to go over 6 mini-challenges that I completed is iOs App Development 2
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Mini Challenge 1 - Functions
 
-### Markdown
+Requirements:
+- Create a function, called check, that takes in an Int and returns an optional String.
+- The input parameter should be called value.
+- If the passed in argument is negative or zero, return nil.
+- Else return a string version of the argument. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ```markdown
 Syntax highlighted code block
